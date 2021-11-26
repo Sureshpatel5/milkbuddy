@@ -1,0 +1,39 @@
+.banner {
+  padding-top: 180px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #698eac;
+  background-image: linear-gradient(to bottom right, #00255c, #8bf5ff);
+}
+
+.banner > div > div {
+  align-items: center;
+}
+
+.banner .brand {
+  display: flex;
+  align-items: center;
+}
+
+.banner .brand img {
+  width: 100%;
+}
+
+.banner .title {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.banner a.shopping-button {
+  color: #000000;
+  background-color: #00ffff;
+}
+
+@media (min-width: 800px) {
+  .banner .title {
+    font-size: 65px;
+  }
+}
